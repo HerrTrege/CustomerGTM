@@ -1,0 +1,35 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Nordic Retail Group AB",
+      "revenue": "1.5 Miljarder SEK",
+      "erp": "SAP ECC (Gammal version)",
+      "pos": "Cegid",
+      "cxe": "Voyado",
+      "decisionMakers": ["Anna Andersson (CIO)", "Lars Larsson (E-commerce Manager)"],
+      "countries": ["Sverige", "Norge", "Danmark"],
+      "industry": "Retail",
+      "painPoints": ["Svårt att synka lager mellan fysisk butik och e-handel", "Gammalt ERP som tappar support"],
+      "d365Opportunities": ["D365 Commerce för unified commerce", "D365 Finance & Operations (F&O) migrering"],
+      "activities": []
+    },
+    {
+      "id": 2,
+      "name": "Svensk Tillverkning AB",
+      "revenue": "3.2 Miljarder SEK",
+      "erp": "Infor M3",
+      "pos": "Ej relevant",
+      "cxe": "Salesforce (delvis)",
+      "decisionMakers": ["Karin Karlsson (COO)", "Peter Persson (IT-chef)"],
+      "countries": ["Sverige", "Tyskland", "Finland"],
+      "industry": "Manufacturing",
+      "painPoints": ["Bristande spårbarhet i leveranskedjan", "Dålig integration mellan sälj och produktion"],
+      "d365Opportunities": ["D365 Supply Chain Management", "D365 Sales"],
+      "activities": []
+    }
+  ],
+  "activities": [
+    { "id": 1, "name": "D365 Retail Frukostseminarium", "targetIndustry": "Retail" }
+  ]
+}
